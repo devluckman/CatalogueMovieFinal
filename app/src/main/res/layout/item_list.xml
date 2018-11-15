@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin"
+    android:id="@+id/cv_main"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/cardRelative"
+        android:background="@color/colorAccent">
+        <ImageView
+            android:layout_width="@dimen/resolution_img"
+            android:layout_height="@dimen/resolution_img"
+            android:id="@+id/img_movie"
+            android:src="@mipmap/ic_launcher"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+        <LinearLayout
+            android:layout_toRightOf="@+id/img_movie"
+            android:id="@+id/ly_desc"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/list_title"
+                android:text="Title Movie"
+                android:textSize="13sp"
+                style="@style/StyleInfoMovie" />
+            <TextView
+                android:id="@+id/list_desc"
+                style="@style/StyleInfoMovie"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi Singkat Movie"
+                android:textSize="10sp"
+                android:maxLength="100"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

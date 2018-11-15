@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CatalogueMovie</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="cari">Search</string>
+    <string name="title_activity_main_home">Katalogue</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Lukmanul Hakim</string>
+    <string name="nav_header_subtitle">PWKT5</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Pengaturan</string>
+
+
+    <string name="EXTRAS_JUDUL">EXTRAS_JUDUL</string>
+    <string name="EXTRAS_DESC">EXTRAS_DESC</string>
+    <string name="EXTRAS_TAHUN">EXTRAS_TAHUN</string>
+    <string name="EXTRAS_VOTE">EXTRAS_VOTE</string>
+    <string name="EXTRAS_BACK">EXTRAS_BACK</string>
+    <string name="EXTRAS_ID">EXTRAS_ID</string>
+
+    //Text
+    <string name="relases">Tanggal Rilis : </string>
+    <string name="rating">Perbandingan : </string>
+
+    <string name="now_playing">Di Putar Sekarang</string>
+    <string name="up_coming">Yang Akan Datang</string>
+    <string name="like_movie">Disukai</string>
+    <string name="search">Cari</string>
+    <string name="setting">Pengaturan</string>
+
+    <string name="pesan">Gagal Mengambil data</string>
+    <string name="pesan_like">Kamu Menyukai Movie ini</string>
+    <string name="favorite_delete">Movie ini di hapus dari daftar favorite</string>
+    <string name="appwidget_text">My StackWidget</string>
+    <string name="add_widget">Tambah widget</string>
+    <string name="empty">Kamu tidak mempunyai movie yang disukasi</string>
+    <string name="movie_rate">Rating : %s/10</string>
+    <string name="date">Tanggal Rilis :  %s </string>
+
+    <string name="remindSaveDaily">Simpan Pengingat Setiap Hari</string>
+    <string name="remindCancelDaily">Batal Pengingat Setiap Hari</string>
+    <string name="remindSave">Simpan Pengingat</string>
+    <string name="remindCancel">Batalkan Pengingat</string>
+    <string name="messageDaily">Movie Harianmu Menghilang seperti mantan, jangan kembali</string>
+</resources>

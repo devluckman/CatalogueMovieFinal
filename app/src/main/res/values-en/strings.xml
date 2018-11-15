@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">CatalogueMovie</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="cari">Search</string>
+    <string name="title_activity_main_home">MainHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Lukmanul Hakim</string>
+    <string name="nav_header_subtitle">PWKT5</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="EXTRAS_JUDUL">EXTRAS_JUDUL</string>
+    <string name="EXTRAS_DESC">EXTRAS_DESC</string>
+    <string name="EXTRAS_TAHUN">EXTRAS_TAHUN</string>
+    <string name="EXTRAS_VOTE">EXTRAS_VOTE</string>
+    <string name="EXTRAS_BACK">EXTRAS_BACK</string>
+    <string name="EXTRAS_ID">EXTRAS_ID</string>
+
+    //Text
+    <string name="relases">Realease date : </string>
+    <string name="rating">Rating : </string>
+
+    <string name="now_playing">Now Playing</string>
+    <string name="up_coming">Up Coming</string>
+    <string name="like_movie">Favorite</string>
+    <string name="search">Search</string>
+    <string name="setting">Setting</string>
+
+    <string name="pesan">Failed to load data</string>
+    <string name="pesan_like">Like this Movie</string>
+    <string name="favorite_delete">this movie has been delete from favorite list!</string>
+    <string name="appwidget_text">Movie Favorite</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty">You  dont have movie favorite</string>
+    <string name="movie_rate">Rate : %s/10</string>
+    <string name="date">Realese Date :  %s </string>
+
+    <string name="remindSaveDaily">Save Reminder Daily</string>
+    <string name="remindCancelDaily">Cancel Reminder Daily</string>
+    <string name="remindSave">Save Reminder</string>
+    <string name="remindCancel">Cancle Reminder</string>
+    <string name="messageDaily">Daily Movie Missing You, please wait come back soon</string>
+
+</resources>

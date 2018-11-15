@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".DetailActivity">
+    <RelativeLayout
+        android:layout_margin="@dimen/margin"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/user_layout"
+            android:layout_marginBottom="10dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imgselectMovie"
+                    android:src="@mipmap/ic_launcher"
+                    android:adjustViewBounds="false"
+                    android:scaleType="center"
+                    />
+
+                <TextView
+                    android:text="CardView"
+                    android:id="@+id/selecttxtJudul"
+                    style="@style/StyleTitle" />
+
+                <ImageView
+                    android:layout_gravity="bottom|right"
+                    android:id="@+id/fav"
+                    android:tint="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_favorite_border_black_24dp"
+                    android:scaleType="center"
+                    android:layout_margin="@dimen/nav_header_vertical_spacing"/>
+
+            </FrameLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_layout"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:text="deskripsi"
+                android:id="@+id/selecttxtDeskripsi"
+                style="@style/StyleDesc"
+                android:gravity="center"/>
+
+            <TextView
+                android:text="tahun"
+                android:id="@+id/selecttxtTahun"
+                style="@style/StyleYear" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:id="@+id/tabel">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@android:drawable/star_off"
+                    android:adjustViewBounds="true"
+                    android:scaleType="center" />
+                <TextView
+                    android:id="@+id/selecttxtVote"
+                    android:text="6.6 / 100"
+                    style="@style/StyleRate" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>
